@@ -25,21 +25,21 @@ const Contact = () => {
       </div>
       <div className='contact__info col-12 p-4 p-top col-md-6 bg-dark gap-4'>
         <div className='d-flex align-items-center gap-5'>
-          <GoLocation size={20} />
+          <GoLocation size={20} className='contact__info--icon' />
           <div>
             <h4>موقعنا</h4>
             <p className='m-0'>الخرطوم، أمدرمان، الثورة الحارة 19</p>
           </div>
         </div>
         <div className='d-flex align-items-center gap-5'>
-          <BsWhatsapp size={20} />
+          <BsWhatsapp size={20} className='contact__info--icon' />
           <div>
             <h4>رقم الهاتف</h4>
             <p className='m-0'>00249005671784</p>
           </div>
         </div>
         <div className='d-flex align-items-center gap-5'>
-          <MdOutlineAttachEmail size={20} />
+          <MdOutlineAttachEmail size={20} className='contact__info--icon' />
           <div>
             <h4>بريدنا الالكتروني</h4>
             <a className='text-white' href="mailto:husamibnasaad@gmail.com">husamibnasaad@gmail.com</a>

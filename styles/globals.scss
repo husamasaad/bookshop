@@ -287,7 +287,15 @@ main {
     background-blend-mode: overlay;
     display: flex;
     flex-direction: column;
-    padding-right: 10% !important;
+    @include media-breakpoint-up(sm) {
+      padding-right: 10% !important;
+    }
+
+    &--icon {
+      @include media-breakpoint-down(sm) {
+        display: none;
+      }
+    }
   }
 }
 

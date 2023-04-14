@@ -46,7 +46,7 @@ const FavBooks = ({ books }) => {
       {
         books.map(book => (
           <div key={book._id} className='book-card d-flex justify-content-center p-2 mx-2 my-5'>
-            <div class="book d-flex flex-column justify-content-center gap-5 text-center overflow-hidden">
+            <div className="book d-flex flex-column justify-content-center gap-5 text-center overflow-hidden">
               <div className='ps-3'>
                 <h2>{book.book}</h2>
                 <p>{book.author}</p>
