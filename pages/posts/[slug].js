@@ -29,7 +29,7 @@ const Post = ({ thePost, posts }) => {
 
 
 export const getStaticPaths = async () => {
-  const query = `*[_type == "book"] {
+  const query = `*[_type == "post"] {
     slug {
       current
     }
