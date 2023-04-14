@@ -59,7 +59,7 @@ const FavBooks = ({ books }) => {
                   </button>
                 </Link>
               </div>
-              <div class="cover">
+              <div className="cover">
                   <img src={urlFor(book.image)} className='w-100 d-block'/>
               </div>
             </div>
